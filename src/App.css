@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.multiselect{
+	position: relative;
+	display: inline-block;
+}
+
+.selected-values{
+	display: flex;
+	cursor: pointer;
+}
+
+.selected-values .dropdown-icon{
+	margin-left: auto;
+	font-size: 15px;
+}
+
+.dropdown-list{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	max-height: 180px;
+	overflow-y: auto;
+	padding: 10px;
+}
+
+.option{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.option input{
+  	margin-right: 10px;
+}
+
+.readonly-checkbox{
+  	padding: 15px;
+}
+
+.readonly-checkbox input{
+  	margin-right: 10px;
+}
